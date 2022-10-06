@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    form {
+        width: 600px;
+        height: 200px;
+        font-size: 26px;
+    }
+    fieldset, table, td {
+        border: 1px solid white;
+        border-collapse: collapse;
+    }
+    .table1 {
+        width: 600px;
+        margin: auto;
+    }
+    p {
+        text-align: right;
+    }
+    .p1 {
+        text-align: center;
+        background-color: red;
+        font-size: 36px;
+        margin-top: 2px;
+    }
+    .cot1 {
+        width: 200px;
+    }
+    .cot2 {
+        width: 400px;
+    }
+    .box1 {
+        width: 300px;
+        height: 36px;
+    }
+    .box2 {
+        width: 250px;
+        height: 36px;
+    }
+    .box3 {
+        width: 140px;
+        height: 35px;
+        font-size: 20px;
+    }
+    .box4 {
+        width: 100px;
+        height: 35px;
+        font-size: 20px;
+    }
+</style>
+<body>
+<form action="">
+    <fieldset>
+        <p class="p1">Sở thích của bạn</p>
+        <table class="table1">
+            <tr>
+                <td class="cot1"><p>Họ và tên</p></td>
+                <td class="cot2"><input type="text" name="name" class="box1"><br></td>
+            </tr>
+            <tr>
+                <td class="cot1"><p>Email</p></td>
+                <td class="cot2"><input type="email" name="email" class="box2"></td>
+            </tr>
+            <tr>
+                <td class="cot1"><p>Sở thích</p></td>
+                <td class="cot2">
+                    <table>
+                    <tr>
+                        <td><input type="radio" name="favor"><span>Thể thao</span></td>
+                        <td><input type="radio" name="favor"><span>Âm nhạc</span></td>
+                        <td><input type="radio" name="favor"><span>Đọc sách</span></td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" name="favor"><span>Lướt web</span></td>
+                        <td><input type="radio" name="favor"><span>Chơi game</span></td>
+                        <td><input type="radio" name="favor"><span>Điện ảnh</span></td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" name="favor"><span>Du lịch</span></td>
+                    </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td class="cot1"></td>
+                <td class="cot2">
+                    <input type="submit" name="submit" value="Gửi thông tin" class="box3">
+                    <input type="reset" name="reset" value="Nhập lại" class="box4">
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+</form>
+</body>
+</html>
